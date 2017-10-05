@@ -53,7 +53,7 @@ add_library(lualib STATIC ${LUA_FILES})
 set_target_properties(lualib PROPERTIES OUTPUT_NAME "lua")
 
 
-# Build e-bot binary
+# Build binary
 include_directories(${LUA_SOURCE_FOLDER})
 
 set(E_BOT_SOURCE_FILES main.cpp)
